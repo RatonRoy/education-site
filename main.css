@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--mainTransition : all 0.5s linear;
+	--lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+	--darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+/* global style  */
+img:not(.nav-logo) {
+	width: 100%;
+	display: block;
+  }
+  .section-title{
+	  text-align: center;
+	  text-transform: capitalize;
+	  font-size: 3rem;
+	  padding: 2rem 0;
+	  color: brown;
+  }
+  .sub-title{
+	letter-spacing: 1px;
+	/* font-size: 1.5rem; */
+	text-transform: capitalize;
+}
+/* end of the global style  */
+#header{
+	/* max-height: 100vh; */
+}
+.akkhor-navBar{
+	/* background-color: #6a040f; */
+}
+.logo{
+	padding: 0 1rem;
+}
+.nav-link{
+	font-size: 1.2rem;
+	display: inline-block;
+	letter-spacing: 0.12rem;
+	padding: 0 0.5rem;
+	font-weight: bold;
+}
+/* .carousel-inner .carousel-item img{
+	opacity: 0.6;
+}
+.slider-container{
+	background: linear-gradient(to right #1e113a, #193ddb) ;
+} */
+
+.slider-info{
+	color: black; 
+	margin-bottom: 1rem;
+}
+.slider-btn{
+	display: inline-block;
+	padding: 0.3rem 0.4rem;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 0.5rem;
+	transition: var(--mainTransition);
+	box-shadow: var(--darkShadow);
+}
+.slider-btn:hover{
+	transform: scale(1.1, 1.05);
+}
+/* about us section */
+.card-img{
+	border-radius: 0.8rem;
+}
+.card-title{
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.2rem;
+	padding: 1rem 0.5rem;
+	font-size: 2rem;
+}
+.card-info{
+	text-align: justify;
+}
+.card-btn{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	padding: 0.7rem 0.5rem;
+	letter-spacing: 0.3rem;
+}
+/* about us section end  */
+/* footer section */
+footer{
+	background-color: #023047;
+	padding: 2rem 1rem;
+	color: white;
+}
+ul{
+	/* list-style-type: circle; */
+	font-size: 1rem;
+}
+ul li{
+	margin: 1rem 0;
+}
+ul li a{
+	color: white;
+}
+.footer-btn-section{
+	text-align: end;
+}
+.footer-end{
+	background-color: black;
+	text-align: center;
+	color: white;
+	/* padding: 0.7rem 0.5rem; */
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+/* end of the footer section */
+/* term and condition sections style start */
+.term-condition-title{
+	text-align: center;
+	  text-transform: capitalize;
+	  font-size: 3rem;
+	  padding: 2rem 0 1rem 0;
+}
+.term-condition-text{
+	font-size: 1.1rem;
+	text-align: justify;
+}
+/* term and condition sections style end */
