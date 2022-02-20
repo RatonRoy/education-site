@@ -111,7 +111,7 @@ ul li a{
 	background-color: black;
 	text-align: center;
 	color: white;
-	/* padding: 0.7rem 0.5rem; */
+	padding: 0.7rem 0.5rem;
 	text-transform: capitalize;
 	letter-spacing: 2px;
 }
