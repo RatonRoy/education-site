@@ -53,6 +53,7 @@ img:not(.nav-logo) {
 	color: black; 
 	margin-bottom: 1rem;
 }
+.footer-btn,
 .slider-btn{
 	display: inline-block;
 	padding: 0.3rem 0.4rem;
@@ -104,8 +105,18 @@ ul li{
 ul li a{
 	color: white;
 }
-.footer-btn-section{
-	text-align: end;
+@media (min-width : 768px) {
+	.footer-btn-section{
+		text-align: end;
+	}
+}
+@media (max-width : 767px ){
+	.footer-list{
+		list-style-type: none;
+	}
+	.footer-colume{
+		text-align: center;
+	}
 }
 .footer-end{
 	background-color: black;
